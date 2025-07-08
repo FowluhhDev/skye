@@ -1,0 +1,20 @@
+{
+  "name": "skye-core",
+  "version": "0.0.1",
+  "description": "Speedy rendering system.",
+  "author": "fowluhh",
+  "license": "MIT",
+  "dependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "npx tsup",
+    "test": "npm run build && npx serve",
+    "publish": "npm run build && npm publish"
+  },
+  "files": [
+    "dist/*",
+    "README.md"
+  ]
+}
