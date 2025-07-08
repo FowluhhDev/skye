@@ -1,4 +1,4 @@
-type State = "running" | "waiting";
+type State = "running" | "waiting" | "killed";
 
 /**
  * The render type

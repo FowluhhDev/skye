@@ -24,6 +24,11 @@ function loop() {
                 render.runningCode();
                 break;
         
+            case "killed":
+                var index = window.renderList.indexOf(render)
+                if (index >= 0) window.renderList.splice(index, 1)
+                break;
+        
             default:
                 break;
         }
