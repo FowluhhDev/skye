@@ -1,5 +1,5 @@
 # Skye
-Core for web-based operating systems.
+Rapid rendering system for JavaScript and TypeScript
 
 ## Example
 Fast updating for mouse movement
