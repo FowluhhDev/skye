@@ -35,4 +35,4 @@ skye.createRender({
 ```
 
 ## Building
-Run `npm i` inside the project directory and run `npm run build` to compile it. You can also use `npm run test` to test the "Two processes" example.
+Run `npm i` inside the project directory and run `npm run build` to compile it. You can also use `npm run test` to test the "Mouse movement" example.
